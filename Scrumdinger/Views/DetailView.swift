@@ -48,7 +48,7 @@ struct DetailView: View {
                 }
                 ForEach(scrum.history) { history in
                     HStack {
-                        Image(systemName: "calender")
+                        Image(systemName: "calendar")
                         Text(history.date, style: .date)
                     }
                 }
