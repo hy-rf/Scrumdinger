@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		C26C25FC2D24D0BF000D95E4 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2A59D6B2D24D53E00814D62 /* Scrumdinger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Scrumdinger.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		C26C25FE2D24D0BF000D95E4 /* Scrumdinger */ = {
+		C2A59D902D24D60100814D62 /* Scrumdinger */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = Scrumdinger;
 			sourceTree = "<group>";
@@ -32,17 +32,9 @@
 		C26C25F32D24D0BF000D95E4 = {
 			isa = PBXGroup;
 			children = (
-				C26C25FE2D24D0BF000D95E4 /* Scrumdinger */,
-				C26C25FD2D24D0BF000D95E4 /* Products */,
+				C2A59D902D24D60100814D62 /* Scrumdinger */,
+				C2A59D6B2D24D53E00814D62 /* Scrumdinger.app */,
 			);
-			sourceTree = "<group>";
-		};
-		C26C25FD2D24D0BF000D95E4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				C26C25FC2D24D0BF000D95E4 /* Scrumdinger.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,13 +53,13 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				C26C25FE2D24D0BF000D95E4 /* Scrumdinger */,
+				C2A59D902D24D60100814D62 /* Scrumdinger */,
 			);
 			name = Scrumdinger;
 			packageProductDependencies = (
 			);
 			productName = Scrumdinger;
-			productReference = C26C25FC2D24D0BF000D95E4 /* Scrumdinger.app */;
+			productReference = C2A59D6B2D24D53E00814D62 /* Scrumdinger.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -95,7 +87,7 @@
 			mainGroup = C26C25F32D24D0BF000D95E4;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = C26C25FD2D24D0BF000D95E4 /* Products */;
+			productRefGroup = C26C25F32D24D0BF000D95E4;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -252,7 +244,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
-				DEVELOPMENT_TEAM = S2G8D933FZ;
+				DEVELOPMENT_TEAM = 2DSKG79Z89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -281,7 +273,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Scrumdinger/Preview Content\"";
-				DEVELOPMENT_TEAM = S2G8D933FZ;
+				DEVELOPMENT_TEAM = 2DSKG79Z89;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
