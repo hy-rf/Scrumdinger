@@ -78,6 +78,7 @@ struct DetailView: View {
                                 isPresentingEditView = false
                                 scrum = editingScrum
                             }
+                            .disabled(editingScrum.title.isEmpty)
                         }
                     }
             }

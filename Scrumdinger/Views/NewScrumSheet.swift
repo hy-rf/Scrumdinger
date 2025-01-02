@@ -25,6 +25,7 @@ struct NewScrumSheet: View {
                             scrums.append(newScrum)
                             isPresentingNewScrumView = false
                         }
+                        .disabled(newScrum.title.isEmpty)
                     }
                 }
         }
