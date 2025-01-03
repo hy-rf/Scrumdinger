@@ -18,9 +18,3 @@ struct ThemeView: View {
             .clipShape(RoundedRectangle(cornerRadius: 4))
     }
 }
-
-struct ThemeView_Previews: PreviewProvider {
-    static var previews: some View {
-        ThemeView(theme: .buttercup)
-    }
-}

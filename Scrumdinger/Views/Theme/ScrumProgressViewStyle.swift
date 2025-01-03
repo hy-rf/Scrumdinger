@@ -28,11 +28,3 @@ struct ScrumProgressViewStyle: ProgressViewStyle {
         }
     }
 }
-
-struct ScrumProgressViewStyle_Previews: PreviewProvider {
-    static var previews: some View {
-        ProgressView(value: 0.4)
-            .progressViewStyle(ScrumProgressViewStyle(theme: .buttercup))
-            .previewLayout(.sizeThatFits)
-    }
-}

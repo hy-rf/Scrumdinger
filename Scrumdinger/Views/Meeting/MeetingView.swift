@@ -59,7 +59,3 @@ struct MeetingView: View {
         scrum.history.insert(newHistory, at: 0)
     }
 }
-
-#Preview {
-    MeetingView(scrum: .constant(DailyScrum.sampleData[0]))
-}

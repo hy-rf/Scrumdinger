@@ -85,9 +85,3 @@ struct DetailView: View {
         }
     }
 }
-
-struct DetailView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailView(scrum: .constant(DailyScrum.sampleData[0]))
-    }
-}

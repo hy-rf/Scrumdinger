@@ -10,6 +10,7 @@ import SwiftUI
 struct DetailEditView: View {
     @Binding var scrum: DailyScrum
     @State private var newAttendeeName = ""
+    @State private var isPresentingNewAttendeeSheet = false
 
     var body: some View {
         Form {
@@ -27,6 +28,14 @@ struct DetailEditView: View {
                 ThemePicker(selection: $scrum.theme)
             }
             Section(header: Text("Attendees")) {
+                HStack {
+                    Spacer()
+                    Button(action: {
+                        isPresentingNewAttendeeSheet = true
+                    }, label: {
+                        Text("From contacts")
+                    })
+                }
                 ForEach(scrum.attendees) { attendee in
                     Text(attendee.name)
                 }
@@ -47,13 +56,10 @@ struct DetailEditView: View {
                     }
                     .disabled(newAttendeeName.isEmpty)
                 }
+                .sheet(isPresented: $isPresentingNewAttendeeSheet, content: {
+                    NewAttendeeSheet(name: $newAttendeeName)
+                })
             }
         }
-    }
-}
-
-struct DetailEditView_Previews: PreviewProvider {
-    static var previews: some View {
-        DetailEditView(scrum: .constant(DailyScrum.sampleData[0]))
     }
 }

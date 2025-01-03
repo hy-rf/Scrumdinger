@@ -31,12 +31,3 @@ struct NewScrumSheet: View {
         }
     }
 }
-
-struct NewScrumSheet_Preview: PreviewProvider {
-    static var previews: some View {
-        NewScrumSheet(
-            scrums: .constant(DailyScrum.sampleData),
-            isPresentingNewScrumView: .constant(true)
-        )
-    }
-}

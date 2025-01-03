@@ -20,9 +20,3 @@ struct ThemePicker: View {
         .pickerStyle(.navigationLink)
     }
 }
-
-struct ThemePicker_Previews: PreviewProvider {
-    static var previews: some View {
-        ThemePicker(selection: .constant(.periwinkle))
-    }
-}
